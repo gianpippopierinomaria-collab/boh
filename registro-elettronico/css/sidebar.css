@@ -1,0 +1,16 @@
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:40;opacity:0;pointer-events:none;transition:opacity .2s}
+.drawer{position:fixed;top:0;bottom:0;zoom:var(--z,1);left:calc(max(0px,(100vw - 480px)/2) / var(--z,1));width:calc(min(79vw,380px) / var(--z,1));background:var(--drawer);z-index:50;overflow-y:auto;transform:translateX(-105%);transition:transform .22s;padding:0 0 24px;visibility:hidden}
+.drawer-open .drawer{transform:none;visibility:visible}
+.drawer-open .overlay{opacity:1;pointer-events:auto}
+.drawer-open{overflow:hidden}
+.d-user{display:flex;align-items:center;gap:15px;padding:14px 15px 0;height:66px}
+.d-user .av{width:37px;height:37px;border-radius:50%;background:#d3e4fb;color:var(--navy);font-size:21px;display:flex;align-items:center;justify-content:center;flex:none}
+.d-user b{flex:1;font-weight:400;font-size:17px;letter-spacing:.2px;text-transform:uppercase;margin-left:6px}
+.d-user svg{width:24px;height:24px;margin-right:12px}
+.drawer h4{margin:0;padding:0 15px;height:56px;display:flex;align-items:center;font-size:20px;font-weight:400;color:var(--navy)}
+.d-item{display:flex;align-items:center;gap:16px;padding:0 0 0 15px;height:51px}
+.d-item img{width:33px;height:33px;flex:none}
+.d-item span{flex:1;height:100%;display:flex;align-items:center;border-bottom:1px solid #c2c2c8;font-size:16.5px;font-weight:500;color:var(--navy);position:relative;letter-spacing:.2px;white-space:nowrap}
+.d-item .badge.sm{right:16px;top:auto;min-width:16px;height:16px;font-size:10px}
+.d-item.active span{color:var(--blue)}
+.d-item.dead{cursor:default}

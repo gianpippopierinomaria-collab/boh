@@ -1,0 +1,8 @@
+.prev-wrap{position:relative;margin:16px 20px 0;height:30px}
+.prev-wrap hr{position:absolute;top:14px;left:0;right:0}
+.prev-btn{position:absolute;left:50%;transform:translateX(-50%);top:0;background:var(--page);border:1px solid var(--gray-line);border-radius:16px;height:30px;padding:0 16px;display:flex;align-items:center;gap:6px;font-size:14px;color:var(--navy);white-space:nowrap}
+.grp{margin:22px 20px 8px;text-align:center;font-weight:400;font-size:16px;color:var(--navy)}
+.grp.b{font-weight:700}
+.page-compiti .item.sep{margin:0 20px}
+.page-compiti hr.thin{display:none}
+.page-compiti .grp+hr+.item{}

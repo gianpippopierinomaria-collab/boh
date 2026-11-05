@@ -1,0 +1,11 @@
+/* Colori campionati dagli screenshot originali */
+:root{
+  --navy:#193658; --navy-deep:#153252; --navy-text:#193658;
+  --yellow:#ecc504; --blue:#2c9cf0; --sky:#75c4ed; --sky-cell:#d6e9f8;
+  --white:#fff; --page:#fcfcfc; --admin-bg:#d9e0e8; --gray-cell:#e3e3e3; --gray-text:#8d9097; --gray-line:#c9c9c9; --gray-box:#ececec;
+  --green:#22b04a; --g-green:#16a53a; --g-red:#e8000e; --red:#d33d3e;
+  --v-green:#53d453; --v-green-old:#9cd69c; --v-red:#d33d3e; --v-pink:#d09494;
+  --badge:#f4623a; --drawer:#f2f2fa; --ink:#1a1a1a;
+  --shadow:0 2px 6px rgba(0,0,0,.14);
+  --font:'Ubuntu',system-ui,sans-serif; --font-title:'Roboto','Ubuntu',system-ui,sans-serif;
+}

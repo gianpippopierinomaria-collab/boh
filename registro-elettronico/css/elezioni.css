@@ -1,0 +1,17 @@
+.page-elezioni{padding:12px 14px 30px}
+.ad-tabs{display:flex;gap:8px;overflow-x:auto;padding:4px 2px 10px;scrollbar-width:none}
+.ad-tabs::-webkit-scrollbar{display:none}
+.ad-tabs button{flex:none;background:#fff;border-radius:18px;padding:8px 15px;font-size:15px;color:var(--navy);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.ad-tabs button.on{background:var(--navy);color:#fff}
+.ad-panel .btn.add{width:100%;justify-content:center;margin:4px 0 10px;background:var(--yellow);color:var(--navy);font-weight:700}
+.ad-card{background:#fff;border-radius:14px;padding:14px;box-shadow:0 1px 3px rgba(0,0,0,.1);margin-bottom:10px}
+.ad-card.stats b{font-size:18px}.ad-card.stats small{display:block;color:#566;margin:2px 0 6px}
+.ad-avgs{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:13px}
+.ad-p{font-size:15px;line-height:1.45;margin:0 0 12px}.ad-p a{color:var(--blue)}
+.ad-h{margin:14px 4px 6px;color:var(--navy);font-size:15px}
+.ad-row{display:flex;align-items:center;gap:10px;background:#fff;border-radius:12px;padding:9px 8px 9px 10px;margin-bottom:7px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.ad-chip{flex:none;min-width:42px;text-align:center;background:var(--sky-cell);border-radius:8px;padding:6px 4px;font-weight:700;font-size:14px}
+.ad-t{flex:1;min-width:0}.ad-t b{display:block;font-size:15px;line-height:1.25}.ad-t small{display:block;font-size:12.5px;color:#566;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ic{width:36px;height:36px;border-radius:8px;background:var(--sky-cell);font-size:17px;color:var(--navy)}
+.ic.del{background:#f6d3d3;color:var(--red)}
+.view[data-page=elezioni] .empty.small{color:#566}
